@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items:  center;
+height: 100vh;
+
+}
+
+.container{
+    width:960px;
+    height:600px;
+    border: 1px black solid;
+    display:flex;
+    flex-direction: column;
+    
+   
+}
+
+.row{
+    width:100%;
+    display:flex;
+    flex:1;
+    
+
+}
+
+.box{
+    border:1px black solid;
+    flex:1;
+}
+
+.highlighted{
+    background-color:blue
+}
